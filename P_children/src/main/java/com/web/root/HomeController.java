@@ -47,6 +47,7 @@ public class HomeController implements MemberSession {
 	@GetMapping("index")
 	public String index() {
 		System.out.println("깃허브 테스트입니다.");
+		System.out.println("깃허브 테스트입니다. pull받고 다시 commit push 하기");
 		return "chenggyu/index";
 	}
 	
