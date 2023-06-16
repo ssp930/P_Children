@@ -41,13 +41,16 @@ public class HomeController implements MemberSession {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
+		System.out.println("깃허브 테스트입니다.");
+		System.out.println("깃허브 테스트입니다. pull받고 다시 commit push 하기");
+		System.out.println("깃허브 테스트입니다. pull받고 다시 commit push 하기02");
+		
 		return "home";
+		
 	}
 	
 	@GetMapping("index")
 	public String index() {
-		System.out.println("깃허브 테스트입니다.");
-		System.out.println("깃허브 테스트입니다. pull받고 다시 commit push 하기");
 		return "chenggyu/index";
 	}
 	
