@@ -42,6 +42,7 @@ public class HomeController implements MemberSession {
 		model.addAttribute("serverTime", formattedDate );
 		System.out.println("헬로");
 		System.out.println("헬로02");
+		System.out.println("헬로03");
 		return "home";
 	}
 	
